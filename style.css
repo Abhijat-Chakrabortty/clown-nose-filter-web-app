@@ -1,0 +1,22 @@
+h3{
+    font: 25px !important;
+}
+
+.btn-success:hover{
+    background-color: red;
+}
+
+canvas{
+    animation-name: Clown_nose;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Clown_nose{
+    from{
+       box-shadow: 1px 1px 38px greenyellow;
+    }
+    to{
+        box-shadow: 1px 1px 38px cyan;
+    }
+}
